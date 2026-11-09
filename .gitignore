@@ -1,0 +1,16 @@
+*.db
+
+report_*.txt
+
+server/bin/*.dll
+server/bin/*.lib
+server/bin/*.exp
+server/bin/*.obj
+server/obj/
+
+client_cs/bin/
+client_cs/obj/
+
+.vs/
+*.user
+*.suo

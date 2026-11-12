@@ -72,6 +72,9 @@ dcom/
 │           Menu.cs
 │
 └───server
+    ├───bin
+    │       monitor.db
+    │
     ├───include
     │       database.h
     │       factory.h
@@ -91,11 +94,19 @@ dcom/
     │       database.cpp
     │       dllmain.cpp
     │       factory.cpp
+    │       file_writer.cpp
     │       monitor.cpp
     │       monitor_v2.cpp
     │       monitor_v3.cpp
+    │       network.cpp
+    │       process_info.cpp
+    │       process_kill.cpp
+    │       process_list.cpp
     │       registration.cpp
+    │       report_builder.cpp
     │       SystemMonitor.def
+    │       system_info.cpp
+    │       system_stats.cpp
     │       text_utils.cpp
     │       win_utils.cpp
     │
